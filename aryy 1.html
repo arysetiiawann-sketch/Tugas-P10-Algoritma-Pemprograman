@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penggunaan Fungsi di JS / JavaScript</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- membuat kumpulan fungsi -->
+    <div class="container mt-5">
+        <div class="card" >
+            <div class="card-body">
+                <h3>Fungsi Tanpa Parameter</h3>
+                <div id="Hasil" class="alert alert-info mt-3"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function fungsi1() {
+            document.getElementById("Hasil").innerHTML += "Ini adalah fungsi 1<br>";
+        }
+        // Memanggil fungsi tanpa parameter
+        fungsi1();
+        fungsi1();
+        fungsi1();
+        fungsi1();
+        fungsi1();
+    </script>
+</body>
+
+</html>
